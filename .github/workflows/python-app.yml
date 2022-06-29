@@ -1,8 +1,22 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-- name: Poetry export requirements.txt file
-  uses: divideprojects/poetry-export-requirements-action@v1.3.0
+name: poetry export requirements.txt
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  export-requirements-txt:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: divideprojects/poetry-export-requirements-action@v1
+      with:
+        without-hashes: true
+        outfile-name: requirements.txt
 
 name: Python application
 
