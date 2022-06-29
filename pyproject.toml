@@ -3,7 +3,7 @@ name = "libpythonpro"
 version = "0.1.0"
 description = ""
 authors = ["Felipe Antonio <felipe.antonio.online@proton.me>"]
-license = "MIT"
+license = "AGPL"
 
 [tool.poetry.dependencies]
 python = "^3.10"
