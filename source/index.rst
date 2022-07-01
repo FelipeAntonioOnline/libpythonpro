@@ -1,10 +1,8 @@
-.. libpythonpro documentation master file, created by
-   sphinx-quickstart on Thu Jun 30 18:10:04 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to libpythonpro's documentation!
 ========================================
+
+.. automodule:: libpythonpro.github_api
+    :members:
 
 .. toctree::
    :maxdepth: 2
