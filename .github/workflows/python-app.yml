@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install poetry flake8 pytest codecov
+          pip install poetry flake8 pytest pytest-cov codecov
           if [ -f poetry.lock ]; then poetry export -f requirements.txt --without-hashes --output requirements.txt; fi
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Lint with flake8
@@ -39,4 +39,3 @@ jobs:
           pytest libpythonpro -ra -q --doctest-modules --cov=libpythonpro --cov-report=xml
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
-      
