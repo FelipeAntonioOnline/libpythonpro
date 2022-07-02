@@ -1,8 +1,12 @@
 # libpythonpro
 
-Módulo para exemplificar contrução de projetos Python no curso PyTools
+Módulo para exemplificar construção de projetos Python no curso PyTools
+
+Nesse curso é ensinado como contribuir com projetos de código aberto
+
+Suportada versão 3 de Python
 
 Tópicos a serem abordados:
-
-1. Pip
-2. virtualenv
+ 1. Git
+ 2. Virtualenv
+ 3. Pip
