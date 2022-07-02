@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "libpythonpro"
 version = "0.1.0"
-description = ""
+description = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 authors = ["Felipe Antonio <felipe.antonio.online@proton.me>"]
 license = "AGPL"
 
@@ -14,7 +14,12 @@ black = "^22.6.0"
 flake8 = "^4.0.1"
 pytest = "^7.1.2"
 Sphinx = "^5.0.2"
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --doctest-modules"
