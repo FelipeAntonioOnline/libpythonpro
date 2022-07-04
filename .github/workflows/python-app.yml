@@ -5,9 +5,9 @@ name: libpythonpro CI
 
 on:
   push:
-    branches: ["7-optimise-workflow-script"]
+    branches: ["main"]
   pull_request:
-    branches: ["7-optimise-workflow-script"]
+    branches: ["main"]
 
 permissions:
   contents: read
