@@ -1,4 +1,5 @@
 # libpythonpro
+
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/felipeantonioonline/libpythonpro/libpythonpro%20CI/main)
 [![codecov](https://codecov.io/gh/FelipeAntonioOnline/libpythonpro/branch/main/graph/badge.svg?token=4X4Y6RZVGU)](https://codecov.io/gh/FelipeAntonioOnline/libpythonpro)
 ![GitHub](https://img.shields.io/github/license/felipeantonioonline/libpythonpro)
@@ -14,3 +15,4 @@ Tópicos a serem abordados:
 1.  Git
 2.  Virtualenv
 3.  Pip
+4.  Pytest / Mock
